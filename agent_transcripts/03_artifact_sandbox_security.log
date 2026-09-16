@@ -1,0 +1,16 @@
+[AGENT TRAJECTORY LOG 03 - ARTIFACT GENERATION & SECURITY SANDBOX]
+Date: 2026-09-12
+Goal: Create Claude-style Native In-App Artifact Viewer with security isolation strategy.
+
+Step 1: Artifact Parsing
+- Created ArtifactGenerator.parse_artifacts_from_response() to capture `<artifact title="..." type="html|markdown">` tags from LLM responses.
+- Implemented HTML sanitization using Bleach to strip unsafe script execution vector tags while preserving UI CSS and interactive components.
+
+Step 2: Security Sandboxing
+- Rendered preview inside `<iframe sandbox="allow-scripts" srcDoc={...}>`.
+- Embedded Content Security Policy (CSP) meta tag inside generated document header restricting script/style origins.
+
+Step 3: Verification
+- Generated Product Strategy Canvas HTML artifact.
+- Verified side-by-side rendering in frontend drawer.
+- Verified security indicator pill in ArtifactViewer top bar.

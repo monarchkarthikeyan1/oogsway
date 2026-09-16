@@ -1,12 +1,20 @@
+# Environment variables
 .env
+*.env
+
+# Dependencies
 node_modules/
-__pycache__/
-.venv/
 venv/
-.DS_Store
-.env
-node_modules/
-__pycache__/
 .venv/
-venv/
+
+# Build and Temp outputs
+dist/
+.vite/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases & OS files
+*.db
 .DS_Store
+

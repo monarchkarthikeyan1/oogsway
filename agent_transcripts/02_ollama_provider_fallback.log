@@ -1,0 +1,16 @@
+[AGENT TRAJECTORY LOG 02 - OLLAMA & MULTI-LLM PROVIDER LAYER]
+Date: 2026-09-12
+Goal: Implement dynamic LLM Provider switching (Ollama local, Anthropic Claude, OpenAI GPT-4o) with graceful fallback.
+
+Step 1: Interface Design
+- Created BaseLLMProvider abstract base class with generate() and is_available() methods.
+- Implemented OllamaProvider targeting http://localhost:11434/api/chat.
+
+Step 2: Fallback Handling Debugging
+- Issue: When Ollama daemon was offline or standard model tag missing, backend returned unhandled 500 internal server errors.
+- Resolution: Added automatic health ping (`GET /api/tags`) before dispatching requests.
+- Added graceful fallback check: If Cloud API key missing and Ollama offline, agent returns clear diagnostic setup instructions rather than crashing.
+
+Step 3: Verification
+- Tested switching providers via `POST /api/v1/providers/toggle`.
+- Verified live UI state updates in ModelSelectorModal.

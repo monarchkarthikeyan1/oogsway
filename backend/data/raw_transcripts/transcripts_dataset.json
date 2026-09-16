@@ -1,0 +1,106 @@
+[
+  {
+    "episode_id": "ep_01_shreyas_doshi",
+    "episode_title": "Shreyas Doshi on the LNO Framework, Good PM vs. Great PM, and Pre-Mortems",
+    "guest": "Shreyas Doshi",
+    "topic": "Product Management, Time Management, Prioritization, Career Growth",
+    "source_url": "https://www.lennysnewsletter.com/p/shreyas-doshi-on-product-management",
+    "transcript": [
+      {
+        "timestamp_start": "02:15",
+        "timestamp_end": "06:40",
+        "content": "Lenny: Shreyas, your LNO framework has transformed how product managers manage their time. Can you explain how it works?\nShreyas Doshi: Most product managers try to do everything with 100% perfection, which leads to burnout and poor strategic output. The LNO framework categorizes tasks into three distinct buckets: L-tasks (Leverage tasks), N-tasks (Neutral tasks), and O-tasks (Overhead tasks). Leverage tasks are high-impact strategic decisions like product strategy, key hires, and narrative setting. These require 10x quality and your best energy. Neutral tasks are standard execution work like status updates or writing basic PRDs—do these to 100% acceptable quality (1x), but don't over-optimize. Overhead tasks are administrative chores like calendar management—do these to 0.1x efficiency or automate/delegate them. A Great PM knows when to intentionally do a 60% job on an O-task so they have the energy to deliver a 1000% job on an L-task."
+      },
+      {
+        "timestamp_start": "06:41",
+        "timestamp_end": "11:20",
+        "content": "Lenny: What separates a Good Product Manager from a Great Product Manager?\nShreyas Doshi: A Good PM focuses on solving problems given to them with high execution discipline. They deliver features on time. A Great PM questions whether we are solving the right problem in the first place. They focus on leverage, leverage, leverage. Good PMs manage complexity; Great PMs create simplicity out of chaos. Great PMs also run pre-mortems before launching any strategic initiative. In a pre-mortem, you ask the team: 'Imagine it is 12 months from now, and our launch was a complete disaster. Why did we fail?' This surfaces hidden risks and psychological safety issues that standard risk logs miss."
+      }
+    ]
+  },
+  {
+    "episode_id": "ep_02_brian_chesky",
+    "episode_title": "Brian Chesky on Founder Mode, Product Design, and Un-delegating",
+    "guest": "Brian Chesky",
+    "topic": "Leadership, Founder Mode, Product Design, Organizational Structure",
+    "source_url": "https://www.lennysnewsletter.com/p/brian-chesky-founder-mode",
+    "transcript": [
+      {
+        "timestamp_start": "03:10",
+        "timestamp_end": "08:15",
+        "content": "Lenny: Brian, your talk on Founder Mode sparked a global discussion about how companies are run. What is Founder Mode?\nBrian Chesky: Traditional management advice tells founders to 'hire good people and empower them,' which often turns into delegating everything and losing touch with the details of the product. That's Manager Mode. In Founder Mode, leaders stay deeply involved in the details, particularly product design, user experience, and key customer touchpoints. At Airbnb, we eliminated traditional product management silos. Instead, product managers work directly with designers and engineers in unified product release cycles twice a year. If you don't love the details of your product, no one else will."
+      },
+      {
+        "timestamp_start": "08:16",
+        "timestamp_end": "13:30",
+        "content": "Lenny: How did Airbnb redesign its product strategy after the 2020 crisis?\nBrian Chesky: We went back to first principles. We simplified the app, cut dozens of side initiatives, and focused obsessively on core host and guest experience. We realized that product design is not just how something looks—it is how the whole company operates. Every feature we ship must tell a cohesive story. We established a centralized roadmap review where I review every single product detail personally. Some called it micromanagement, but it saved Airbnb and led to our highest profitability ever."
+      }
+    ]
+  },
+  {
+    "episode_id": "ep_03_elena_verna",
+    "episode_title": "Elena Verna on PLG, Growth Loops, and Freemium vs. Free Trial",
+    "guest": "Elena Verna",
+    "topic": "Growth, Product-Led Growth, Monetization, Acquisition",
+    "source_url": "https://www.lennysnewsletter.com/p/elena-verna-on-growth",
+    "transcript": [
+      {
+        "timestamp_start": "01:45",
+        "timestamp_end": "07:30",
+        "content": "Lenny: Elena, why are linear marketing funnels dead, and why should product teams focus on Growth Loops?\nElena Verna: Marketing funnels are linear—you pour money into ad spend at the top, and a fraction converts at the bottom. Once you stop paying, growth stops. Growth Loops are self-sustaining engines. Output from one cycle generates input for the next cycle. There are three primary types of growth loops: Virality Loops (users invite users), Content Loops (users generate content that ranks on SEO), and Financial Loops (revenue funds performance marketing). For B2B SaaS, product-led growth (PLG) relies on activating individual end-users first, creating a bottom-up habit loop before selling enterprise contracts."
+      },
+      {
+        "timestamp_start": "07:31",
+        "timestamp_end": "12:50",
+        "content": "Lenny: How should companies choose between Freemium and Free Trial?\nElena Verna: Freemium is an acquisition strategy; Free Trial is a conversion strategy. Use Freemium when your product has strong viral potential, a low cost of serving free users, and a long time-to-value horizon (like Notion or Miro). Use Free Trial when your product cost per user is high, value is immediately obvious within 14 days, and your addressable market is smaller. The biggest mistake companies make is launching Freemium without a clear monetization trigger. You must know exactly when a user crosses the line from free utility to enterprise value."
+      }
+    ]
+  },
+  {
+    "episode_id": "ep_04_marty_cagan",
+    "episode_title": "Marty Cagan on Product Teams vs. Feature Teams",
+    "guest": "Marty Cagan",
+    "topic": "Product Management, Organization, Empowered Teams, Product Discovery",
+    "source_url": "https://www.lennysnewsletter.com/p/marty-cagan-empowered-teams",
+    "transcript": [
+      {
+        "timestamp_start": "04:00",
+        "timestamp_end": "09:45",
+        "content": "Lenny: Marty, you often talk about the difference between Feature Teams and Empowered Product Teams. What is the core distinction?\nMarty Cagan: In most companies, what they call a 'product team' is actually a 'feature team.' Stakeholders or executives give them a roadmap of features to build, and the PM acts as a project manager delivering requirements to engineers. In an Empowered Product Team, executives give the team problems to solve and business outcomes to achieve (e.g., 'reduce onboarding churn by 20%'). The team—composed of a Product Manager, Product Designer, and Tech Lead—is empowered to figure out the best solution through continuous Product Discovery. Empowered teams own the outcome, not just the output."
+      },
+      {
+        "timestamp_start": "09:46",
+        "timestamp_end": "15:10",
+        "content": "Lenny: How do successful teams run Product Discovery?\nMarty Cagan: Product Discovery is about answering four critical risks fast before writing production code: 1) Value risk (will users buy/use it?), 2) Usability risk (can users figure out how to use it?), 3) Feasibility risk (can our engineers build it with available tech?), and 4) Business Viability risk (does this solution work for our sales, legal, and financial constraints?). Good discovery tests dozens of prototypes every week with real users to de-risk ideas before committing engineering sprint capacity."
+      }
+    ]
+  },
+  {
+    "episode_id": "ep_05_gokul_rajaram",
+    "episode_title": "Gokul Rajaram on the SPADE Decision-Making Framework",
+    "guest": "Gokul Rajaram",
+    "topic": "Decision Making, Leadership, Product Strategy, Execution",
+    "source_url": "https://www.lennysnewsletter.com/p/gokul-rajaram-spade-framework",
+    "transcript": [
+      {
+        "timestamp_start": "02:30",
+        "timestamp_end": "08:00",
+        "content": "Lenny: Gokul, you created the SPADE framework for high-stakes decision making at Square and Coinbase. How does it work?\nGokul Rajaram: SPADE stands for Setting, People, Alternatives, Decide, and Explain. Most organizational decisions fail because roles are unclear or options are prematurely locked down. 1) Setting: Define the WHAT, WHY, and WHEN by outlining the context and deadline. 2) People: Identify the Responsible person (the single driver), Approvers (who can veto), Consulted (subject matter experts), and Informed. 3) Alternatives: Brainstorm at least 3 viable, realistic alternative courses of action—never present a false binary! 4) Decide: The driver votes, presents the choice to Approvers, and makes the call. 5) Explain: Document the decision rationale in writing and share it company-wide within 24 hours to align execution."
+      }
+    ]
+  },
+  {
+    "episode_id": "ep_06_claire_vo",
+    "episode_title": "Claire Vo on AI-Driven Product Velocity and Building Chatbots",
+    "guest": "Claire Vo",
+    "topic": "AI, Velocity, Engineering Execution, Product Leadership",
+    "source_url": "https://www.lennysnewsletter.com/p/claire-vo-ai-velocity",
+    "transcript": [
+      {
+        "timestamp_start": "01:20",
+        "timestamp_end": "06:15",
+        "content": "Lenny: Claire, as CPO of LaunchDarkly and creator of ChatPRD, how is AI changing product management velocity?\nClaire Vo: AI is compressing the distance between an idea and a working prototype from weeks to hours. PMs who embrace AI coding agents and LLM tools can draft PRDs, synthesize customer feedback, and build functional internal tools without waiting for engineering bandwidth. However, AI doesn't replace product judgment. AI accelerates output, but PMs are responsible for intent, quality control, customer empathy, and strategic direction. If you feed AI garbage context, it will produce high-velocity garbage."
+      }
+    ]
+  }
+]

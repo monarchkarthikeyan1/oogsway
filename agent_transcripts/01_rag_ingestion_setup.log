@@ -1,0 +1,18 @@
+[AGENT TRAJECTORY LOG 01 - RAG & INGESTION PIPELINE]
+Date: 2026-09-12
+Goal: Establish transcript schema, loading pipeline, and hybrid vector+keyword search over Lenny's Podcast transcripts.
+
+Step 1: Schema Definition
+- Created TranscriptChunkDB with fields: id, episode_title, guest, topic, content, source_url, timestamp_start, timestamp_end, chunk_index.
+- Attempted initial chunking using 1500-token fixed windows.
+- Issue: Speaker context was split mid-sentence, causing guest attribution errors in RAG search results.
+- Fix: Switched to semantic speaker-turn chunking keeping full guest quotes intact with exact timestamps.
+
+Step 2: Ingestion Execution
+- Ran `python data/ingest.py` to populate PostgreSQL / SQLite database with seed transcript dataset.
+- Verified 12 high-value transcript chunks ingested across Shreyas Doshi, Brian Chesky, Elena Verna, Marty Cagan, Gokul Rajaram, Claire Vo.
+
+Step 3: Verification
+- Executed unit test `tests/test_rag.py`.
+- Query: "What is Shreyas Doshi's LNO framework?"
+- Result: Successfully retrieved exact chunk with citation `[1]` matching Shreyas Doshi in 'Shreyas Doshi on Product Management'.
